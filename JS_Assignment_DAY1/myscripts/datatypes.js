@@ -39,7 +39,24 @@ var car = {
     "doors": 5
 }
 
-//Examples of each:
+
+//Array Data Type
+var colors = ["Red", "Yellow", "Green", "Orange"];
+var cities = ["London", "Paris", "New York"];
+ 
+alert(colors[0]);   // Output: Red
+alert(cities[2]);   // Output: New York
+
+
+//Function Data Type
+//The function is callable object that executes a block of code. Since functions are objects, so it is possible to assign them to variables
+var greeting = function(){ 
+    return "Hello World!"; 
+}
+ 
+// Check the type of greeting variable
+alert(typeof greeting) // Output: function
+alert(greeting());     // Output: Hello World!
 
 
 
